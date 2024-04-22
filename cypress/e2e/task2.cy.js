@@ -5,8 +5,6 @@ import profileInfo from "../fixtures/profileInfo.json";
 
 describe('Profile tests', () => {
 
-    let userData;
-
     beforeEach(() => {
         GaragePage.open();
     })
